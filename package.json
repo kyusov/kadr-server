@@ -1,0 +1,29 @@
+{
+  "name": "kadr-server",
+  "version": "1.0.0",
+  "description": "Test server for kadr landing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyusov/kadr-server.git"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "nodejs"
+  ],
+  "author": "Kirill Yusov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyusov/kadr-server/issues"
+  },
+  "homepage": "https://github.com/kyusov/kadr-server#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
