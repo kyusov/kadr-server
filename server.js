@@ -109,7 +109,7 @@ app.get('/data', (req, res) => {
   res.json(events)
 })
 
-app.get('/data:date', (req, res) => {
+app.get('/data/:date', (req, res) => {
   const date = req.query.date
   const data = events.filter(e => e.date === date)
   res.json(data)
