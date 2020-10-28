@@ -110,8 +110,9 @@ app.get('/data', (req, res) => {
 })
 
 app.get('/data/:date', (req, res) => {
-  const date = req.query.date
+  const date = req.params.date
   const data = events.filter(e => e.date === date)
+  console.log(data)
   res.json(data)
 })
 
