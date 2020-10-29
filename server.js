@@ -151,7 +151,7 @@ app.get('/data', (req, res) => {
 
 app.get('/data/:id', (req, res) => {
   const id = req.params.id
-  const data = eventsExtended.filter((e) => e.id === id)
+  const data = eventsExtended.filter((e) => e.id === +id)
   res.json(data)
 })
 
